@@ -17,9 +17,10 @@ The world shouldn't have to be like that! Everyone should be able to take compen
 ## Ideas so far:
 
  - at least linear two-point compensation (i.e. as [described by Atmel](http://www.atmel.com/images/doc8108.pdf) for the internal temperature sensor)
- - automated [mapping](https://www.arduino.cc/en/Reference/Map) to [min and max](https://en.wikipedia.org/wiki/Normalization_(statistics) values
+ - preferrably multi-point compensation (e.g. piecewise linear or polynomial)
+ - automated [mapping](https://www.arduino.cc/en/Reference/Map) to [min and max](https://en.wikipedia.org/wiki/Normalization_(statistics)) values
  - automatic [gain control](https://en.wikipedia.org/wiki/Automatic_gain_control) and [limiting](https://www.arduino.cc/en/Reference/Constrain) of input data
- - support for multiple sensors (portable sensor profiles)
+ - support for multiple sensors (independent, portable sensor profiles)
 
 ## Question(s):
 
